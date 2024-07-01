@@ -1,8 +1,10 @@
-class Customer {
+import Address from "./address";
+
+export default class Customer {
 
     _id: string;
     _name: string = '';
-    _address: string = '';
+    _address!: Address;
     _active: boolean = false;
 
     constructor(id: string, name: string, address: string) {
@@ -17,6 +19,14 @@ class Customer {
 
     get name() { 
         return this._name; 
+    }
+
+    get address() { 
+        return this._address; 
+    }
+
+    set address(address: Address) {
+        this._address = address;
     }
 
     validate() {
