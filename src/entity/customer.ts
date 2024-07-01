@@ -21,11 +21,11 @@ export default class Customer {
         return this._name; 
     }
 
-    get address() { 
+    get Address() { 
         return this._address; 
     }
 
-    set address(address: Address) {
+    set Address(address: Address) {
         this._address = address;
     }
 
