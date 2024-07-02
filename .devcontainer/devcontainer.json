@@ -30,7 +30,8 @@
 			"extensions": [
 				"Orta.vscode-jest",
 				"firsttris.vscode-jest-runner",
-				"TabNine.tabnine-vscode"
+				"TabNine.tabnine-vscode",
+				"esbenp.prettier-vscode"
 			]
 		}
 	}
